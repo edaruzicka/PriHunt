@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriHunt</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/biohazard.png" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!-- <script src="http://malsup.github.com/jquery.cycle2.js"></script> -->
+    <script src="js/jquery.cycle2.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <div class="flex-container">
+        <nav>
+            <ul class = "nav-links">
+                <li class = "nav-item"><a href="trips.html">Trips</a></li>
+                <li class = "nav-item"><a href="pripyat.html">Pripyat</a></li>
+                <li class = "nav-item"><a class="a-current" href="gallery.html">Gallery</a></li>
+            </ul>
+
+                <a href="index.html"><img class="logo" src="images/biohazard.png"></a>
+
+            <ul class = "nav-links">
+                <li class = "nav-item"><a href="faq.html">FAQ</a></li>
+                <li class = "nav-item"><a href="contact.html">Contact</a></li>
+                <li class = "nav-item"><a id="aSignup">Signup</a></li>
+            </ul>
+        </nav>
+        <button id = "btn-nightmode">Nightmode</button>
+
+        <section class = "info-section">
+            <article class = "info-block-big" id="gallery-block">
+                <h1>Gallery</h1>
+
+                <button><a href=# id=next>Next</a></button> <br>
+                <div id="alt-caption"></div>
+                <div class="cycle-slideshow" data-cycle-manual-speed="400" data-cycle-manual-fx="scrollHorz" data-cycle-next="#next" data-cycle-caption="#alt-caption"
+                data-cycle-caption-template="{{alt}}">
+                    <img class="img-gallery" src = "images/20e924b9-a8cb-4a6c-8a50-1a5b980ac736.jpg" alt="Ferris wheel">
+                    <img class="img-gallery" src = "images/35895584772_7075434fbb_b.jpg" alt="Gas masks on the ground">
+                    <img class="img-gallery" src = "images/35375254775_2c01bde2fb_b.jpg" alt="An old factory">
+                    <img class="img-gallery" src = "images/0cc5867b-73a8-4a83-81d3-7318277b0ef7.jpg" alt="Bumper cars">
+                    <img class="img-gallery" src = "images/96e34fb3-a7f2-4c25-9329-3a0b903a1c51.jpg" alt="Welcome to Pripyat sign">
+                    <img class="img-gallery" src = "images/8037ad78-fa20-4715-88bb-a0ee40636e07.jpg" alt="Abandoned building">
+                </div>
+
+                
+                
+            </article>
+        </section>
+    </div>
+
+    <div id="modalSignup" class="modalSignup">
+        <div class="modal-content">
+            <span class="closeBtn">X</span>
+            <h3>Log in</h3>
+            <p><label>Username:</label><input type="text"></p>
+            <p><label>Password:</label><input type="password"></p>
+            <button><a href="index.html">Log in</a></button>
+        </div>
+    </div>
+
+    <footer>
+        References:
+        <div>Pripyat [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/1a6caef1-73b2-49a1-b33a-11a791b7b150</div>
+        <div>Pripyat factory [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/a340463a-883e-4ec4-b288-21f94963a3d7</div>
+        <div>Ferris wheel [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/20e924b9-a8cb-4a6c-8a50-1a5b980ac736</div>
+        <div>Gas masks [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/5ed9becb-4a81-4ab5-903f-0d714fbeb694</div>
+        <div>Bumper cars [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/0cc5867b-73a8-4a83-81d3-7318277b0ef7</div>
+        <div>Welcome sign [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/96e34fb3-a7f2-4c25-9329-3a0b903a1c51</div>
+        <div>Building [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/8037ad78-fa20-4715-88bb-a0ee40636e07</div>
+        <div>Cycle2 [Plug in] (n. d.). Retrieved from http://jquery.malsup.com/cycle2/demo/basic.php</div>
+    </footer>
+    
+</body>
+<script src="js/modal.js"></script>
+<script src="js/nightmode.js"></script>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriHunt</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/biohazard.png" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <div class="flex-container">
+        <nav>
+            <ul class = "nav-links">
+                <li class = "nav-item"><a href="trips.html">Trips</a></li>
+                <li class = "nav-item"><a class="a-current" href="pripyat.html">Pripyat</a></li>
+                <li class = "nav-item"><a href="gallery.html">Gallery</a></li>
+            </ul>
+
+                <a href="index.html"><img class="logo" src="images/biohazard.png"></a>
+
+            <ul class = "nav-links">
+                <li class = "nav-item"><a href="faq.html">FAQ</a></li>
+                <li class = "nav-item"><a href="contact.html">Contact</a></li>
+                <li class = "nav-item"><a id="aSignup">Signup</a></li>
+            </ul>
+        </nav>
+        <button id = "btn-nightmode">Nightmode</button>
+
+        <section class = "info-section">
+            <article class = "info-block-big">
+                <div class="column">
+                    <h1>The city of Pripyat</h1>
+                    <p>Welcome to the city of Pripyat!</p>
+                    <p>This place has become a ghost town because of the Chernobyl nuclear reactor explosion, that happened on Saturday 26 April 1986.</p>
+                    <p>The whole city had to be evacuated, leaving all of their belonging there. But that's not the most shocking thing that happened back then.</p>
+                    <p>Not only is the Zone around Chernobyl and Pripyat in lock-down, but the local animals have mutated thanks to the high ammount of radiation in the Zone.</p>
+                </div>
+
+                <div class="column">
+                    <img class="tooltip img-pripyat" title="Ever wanted to drive Pripyat bumper cars? Well you can't, but you can just look at them!" src = "images/0cc5867b-73a8-4a83-81d3-7318277b0ef7.jpg")>
+                    <img class="tooltip img-pripyat" title="'Welcome to Pripyat!' - you are gonna have some fun here ;)" src = "images/96e34fb3-a7f2-4c25-9329-3a0b903a1c51.jpg">
+                    <img class="tooltip img-pripyat" title="One of our luxury buildings in which you are going to be hunting in." src = "images/8037ad78-fa20-4715-88bb-a0ee40636e07.jpg">
+                </div>
+            </article>
+        </section>
+
+        <div id="modalSignup" class="modalSignup">
+            <div class="modal-content">
+                <span class="closeBtn">X</span>
+                <h3>Log in</h3>
+                <p><label>Username:</label><input type="text"></p>
+                <p><label>Password:</label><input type="password"></p>
+                <button><a href="index.html">Log in</a></button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        References:
+        <div>Pripyat [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/1a6caef1-73b2-49a1-b33a-11a791b7b150</div>
+        <div>Bumper cars [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/0cc5867b-73a8-4a83-81d3-7318277b0ef7</div>
+        <div>Welcome sign [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/96e34fb3-a7f2-4c25-9329-3a0b903a1c51</div>
+        <div>Building [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/8037ad78-fa20-4715-88bb-a0ee40636e07</div>
+    </footer>
+    
+</body>
+<script src="js/modal.js"></script>
+<script src="js/nightmode.js"></script>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriHunt</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/biohazard.png" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <div class="flex-container">
+        <nav>
+            <ul class = "nav-links">
+                <li class = "nav-item"><a href="trips.html">Trips</a></li>
+                <li class = "nav-item"><a href="pripyat.html">Pripyat</a></li>
+                <li class = "nav-item"><a href="gallery.html">Gallery</a></li>
+            </ul>
+
+                <a href="index.html"><img class="logo" src="images/biohazard.png"></a>
+
+            <ul class = "nav-links">
+                <li class = "nav-item"><a href="faq.html">FAQ</a></li>
+                <li class = "nav-item"><a class="a-current" href="contact.html">Contact</a></li>
+                <li class = "nav-item"><a id="aSignup">Signup</a></li>
+            </ul>
+        </nav>
+        <button id = "btn-nightmode">Nightmode</button>
+
+        <section class = "info-section" id = "info-section-contact">
+            <article class = "info-block" id = "info-block-contact">
+                <img class = "info-img" src = "https://image.flaticon.com/icons/svg/942/942802.svg">
+                <br>
+                <p>Ask us anything!</p>
+                <form action="#">
+                    <label for="email">Your email:</label><br>
+                    <input type="email" id="email"> <br> <br>
+
+                    <label for="message">Message:</label>
+                    <textarea type="text" id="message"></textarea><br>
+                    <button class="choose-button"><a href="index.html">Send</a></button>
+                </form>
+            </article>
+        </section>
+
+        <div id="modalSignup" class="modalSignup">
+            <div class="modal-content">
+                <span class="closeBtn">X</span>
+                <h3>Log in</h3>
+                <p><label>Username:</label><input type="text"></p>
+                <p><label>Password:</label><input type="password"></p>
+                <button><a href="index.html">Log in</a></button>
+            </div>
+        </div>
+  
+
+        <footer>
+            References:
+            <div>Pripyat [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/1a6caef1-73b2-49a1-b33a-11a791b7b150</div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </footer>
+    </div>
+
+    
+
+</body>
+<script src="js/modal.js"></script>
+<script src="js/nightmode.js"></script>
+</html>

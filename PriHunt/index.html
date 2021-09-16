@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriHunt</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/biohazard.png" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <div class="flex-container">
+        <nav>
+            <ul class = "nav-links">
+                <li class = "nav-item"><a href="trips.html">Trips</a></li>
+                <li class = "nav-item"><a href="pripyat.html">Pripyat</a></li>
+                <li class = "nav-item"><a href="gallery.html">Gallery</a></li>
+            </ul>
+
+                <a href="index.html"><img class="logo" src="images/biohazard.png"></a>
+
+            <ul class = "nav-links">
+                <li class = "nav-item"><a href="faq.html">FAQ</a></li>
+                <li class = "nav-item"><a href="contact.html">Contact</a></li>
+                <li class = "nav-item"><a id="aSignup">Signup</a></li>
+            </ul>
+        </nav>
+        <button id = "btn-nightmode">Nightmode</button>
+
+        <section class = "info-section">
+            <article class = "info-block-big" id="trip-detail-block">
+                <h2>PriHunt</h2>
+                <h3>Your best buddy for Pripyat monster hunting!</h3>
+                <p>Have you ever thought about going to Pripyat?</p>
+                <p>And how about shooting some monsters while you are there?</p>
+                <p>Well for that, here we are! More than 15 years of experience in the monster hunting field, PriHunt is here to make sure your trip is safe, easy and most importantly: FUN!</p>
+            </article>
+        </section>
+
+        <section class = "info-section" id="index-section">
+            <article class = "info-block">
+                <img class = "info-img" src = "https://image.flaticon.com/icons/svg/901/901889.svg">
+                <br>
+                <p>Just arrive at Kiev and we will take care of everything!</p>
+            </article>
+
+            <article class = "info-block">
+                <img class = "info-img" src = "https://image.flaticon.com/icons/svg/3003/3003971.svg">
+                <br>
+                <p>24/7 Customer support for all your concerns and needs.</p>
+            </article>
+            
+            <article class = "info-block">
+                <img class = "info-img" src = "https://image.flaticon.com/icons/png/512/770/770431.png">
+                <br>
+                <p>Money back guarantee if you are not satisfied with the trip!</p>
+            </article>
+        </section>
+
+        <footer>
+            References:
+            <div>Pripyat [Photograph] (n. d.). Retrieved from https://ccsearch.creativecommons.org/photos/1a6caef1-73b2-49a1-b33a-11a791b7b150</div>
+            <div>Icons made by <a href="https://www.flaticon.com/free-icon/dollar_770431" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </footer>
+    </div>
+
+    <div id="modalSignup" class="modalSignup">
+        <div class="modal-content">
+            <span class="closeBtn">X</span>
+            <h3>Log in</h3>
+            <p><label>Username:</label><input type="text"></p>
+            <p><label>Password:</label><input type="password"></p>
+            <button><a href="index.html">Log in</a></button>
+        </div>
+    </div>
+
+</body>
+<script src="js/modal.js"></script>
+<script src="js/nightmode.js"></script>
+</html>
